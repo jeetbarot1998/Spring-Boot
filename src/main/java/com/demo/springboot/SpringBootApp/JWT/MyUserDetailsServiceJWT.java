@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 
 @Service
-public class MyUserDetailsService implements UserDetailsService {
+public class MyUserDetailsServiceJWT implements UserDetailsService {
 
 
     @Override
