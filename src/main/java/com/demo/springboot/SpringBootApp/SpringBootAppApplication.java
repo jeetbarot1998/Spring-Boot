@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages =
 		{"com.demo.springboot.SpringBootApp.topic",
-		"com.demo.springboot.SpringBootApp.courses"})
+		"com.demo.springboot.SpringBootApp.courses",
+		"com.demo.springboot.SpringBootApp.securityExample"})
 public class SpringBootAppApplication {
 
 	public static void main(String[] args) {
